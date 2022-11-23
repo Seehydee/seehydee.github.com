@@ -1,0 +1,50 @@
+.logomain {
+    color: #fff;
+    font-size: larger;
+}
+.logosub {
+    color: #fff;
+    opacity: 0.5;
+}
+.logomain.logosticky, .logosub.logosticky{
+    color: #3056d3;
+}
+
+#about .ud-about-wrapper {
+    position: relative;
+}
+
+.headshotwrapper {
+    position: absolute;
+    top: -60px;
+    width: 100%;
+    text-align: center;
+}
+
+.headshotwrapper img {
+    width: 120px;
+    border-radius: 100px;
+    border: 5px solid white;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+}
+
+@media (min-width: 520px) {
+    .headshotwrapper {
+        top: -75px;
+    }
+    .headshotwrapper img {
+        width: 150px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .headshotwrapper img {
+        width: 200px;
+    }
+    .headshotwrapper {
+        top: -100px;
+    }
+}
+
